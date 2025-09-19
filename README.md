@@ -29,4 +29,4 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
 
-Visit http://localhost:8000/docs for API documentation.
+Visit http://0.0.0.0:8000/docs for API documentation.

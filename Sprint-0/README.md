@@ -10,7 +10,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
 
-API Documentation: http://localhost:8000/docs
+API Documentation: http://0.0.0.0:8000/docs
 📝 API Endpoints
 Person Resource
 
