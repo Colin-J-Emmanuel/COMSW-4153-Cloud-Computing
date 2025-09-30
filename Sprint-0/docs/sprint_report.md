@@ -180,7 +180,7 @@ None - All planned features were completed.
 
 ## 6. GitHub Repository
 
-https://github.com/Colin-J-Emmanuel/COMSW-4153-Cloud-Computing
+https://github.com/Colin-J-Emmanuel/COMSW-4153-Cloud-Computing/tree/main/Sprint-0
 
 ---
 
