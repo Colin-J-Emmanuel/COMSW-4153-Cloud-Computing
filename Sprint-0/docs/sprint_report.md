@@ -80,8 +80,9 @@ class PersonBase(BaseModel):
         description="Date of birth (YYYY-MM-DD).",
         json_schema_extra={"example": "1815-12-10"}
     )
-
+```
   ### Resource 2
+  ```python
   class AddressBase(BaseModel):
     """Address model with UUID identifier"""
     id: str = Field(
@@ -155,7 +156,12 @@ class PersonBase(BaseModel):
   @app.get("/addresses", response_model=list[AddressRead])
   def get_addresses():
       return list(addresses_db.values())
+```
 
+### OpenAPI Document (Partial)
+docs/OpenAPI_screenshot.png
+
+Screenshot included showing Swagger UI with all endpoints.
 
 ## 3. Incomplete Work ❌
 
